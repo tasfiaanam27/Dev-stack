@@ -23,7 +23,7 @@
     "id": 3,
     "name": "Svelte",
     "category": "Frontend",
-    "description": "Cybernetically enhanced web apps with a compile-time reactivity and zero virtual DOM overhead.",
+    "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
@@ -31,66 +31,76 @@
   },
   {
     "id": 4,
-    "name": "Node.js",
-    "category": "Backend",
-    "description": "A JavaScript runtime for building fast and scalable server-side applications.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "name": "Next.js",
+    "category": "Frontend",
+    "description": "The React framework for full-stack web applications with hybrid static and server rendering.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "SSR / Edge"
   },
   {
     "id": 5,
-    "name": "Express",
+    "name": "Node.js",
     "category": "Backend",
-    "description": "A minimal and flexible Node.js framework for building web applications and APIs.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-    "rating": 4.7,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Flexible"
+    "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Standard"
   },
   {
     "id": 6,
-    "name": "MongoDB",
-    "category": "Database",
-    "description": "A document-oriented database designed for flexible and scalable modern applications.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-    "rating": 4.8,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
-  },
-  {
-    "id": 7,
     "name": "PostgreSQL",
     "category": "Database",
-    "description": "A powerful open-source relational database known for reliability and advanced features.",
+    "description": "A powerful, open-source object-relational database system with proven reliability.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Reliable"
+    "badge": "Top SQL"
+  },
+  {
+    "id": 7,
+    "name": "Redis",
+    "category": "Database",
+    "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Cache"
   },
   {
     "id": 8,
-    "name": "TypeScript",
+    "name": "JavaScript",
     "category": "Language",
-    "description": "A strongly typed programming language that builds on JavaScript for safer development.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     "rating": 4.9,
-    "difficulty": "Intermediate",
-    "badge": "Type-Safe"
+    "difficulty": "Beginner-Friendly",
+    "badge": "Ubiquitous"
   },
   {
     "id": 9,
-    "name": "Python",
+    "name": "TypeScript",
     "category": "Language",
-    "description": "A versatile programming language widely used for web development, automation, and data science.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
     "rating": 4.9,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Versatile"
+    "difficulty": "Intermediate",
+    "badge": "Essential"
   },
   {
     "id": 10,
+    "name": "Java",
+    "category": "Language",
+    "description": "A secure, object-oriented programming language designed for portability and scale.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Robust"
+  },
+  {
+    "id": 11,
     "name": "Tailwind CSS",
     "category": "Styling",
     "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
@@ -100,23 +110,13 @@
     "badge": "Modern"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Docker",
     "category": "DevOps",
     "description": "A platform designed to build, share, and run containerized applications reliably.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Essential"
-  },
-  {
-    "id": 12,
-    "name": "Git",
-    "category": "Tools",
-    "description": "A distributed version control system for tracking changes and collaborating on software projects.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-    "rating": 4.9,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Containers"
   }
 ]
