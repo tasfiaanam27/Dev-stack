@@ -1,2 +1,52 @@
 @import "tailwindcss";
+
 @plugin "daisyui";
+
+:root {
+  --brand-gradient: linear-gradient(
+    to right,
+    #ff5722 0%,
+    #d81b7e 50%,
+    #7c3aed 100%
+  );
+
+  --button-gradient: linear-gradient(
+    to right,
+    #f97316 0%,
+    #ec4899 100%
+  );
+
+  --accent-gradient: linear-gradient(
+    to right,
+    #ec4899 0%,
+    #7c3aed 100%
+  );
+
+  --brand-pink: #d91b7e;
+}
+
+.brand-gradient-text {
+  background: var(--brand-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.accent-gradient-text {
+  background: var(--accent-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.brand-gradient-bg {
+  background: var(--brand-gradient);
+}
+
+.button-gradient-bg {
+  background: var(--button-gradient);
+}
+
+.brand-pink-bg {
+  background-color: var(--brand-pink);
+}
